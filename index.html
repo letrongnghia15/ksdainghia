@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khách sạn Đại Nghĩa — Khách sạn bình dân tại Gò Vấp, TP.HCM</title>
+  <meta name="description" content="Khách sạn bình dân, sạch sẽ và thân thiện tại Quận Gò Vấp, TP. Hồ Chí Minh. Gần sân bay Tân Sơn Nhất. A clean, friendly budget hotel in Go Vap, HCMC.">
+  <meta name="theme-color" content="#1f7ae0">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231f7ae0'/%3E%3Ctext x='50' y='70' font-family='Segoe UI,sans-serif' font-size='58' font-weight='700' fill='white' text-anchor='middle'%3EĐ%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-title-key="meta.title.home">
+
+  <!-- NAV -->
+  <header class="nav" role="banner">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__brand">
+          <span class="nav__brand-name">Khách sạn Đại Nghĩa</span>
+          <span class="nav__brand-tag" data-i18n="brand.tag">Gò Vấp · Sài Gòn</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav__menu" aria-label="Main">
+          <a href="index.html" class="nav__link is-active" data-i18n="nav.home">Trang chủ</a>
+          <a href="rooms.html" class="nav__link" data-i18n="nav.rooms">Phòng</a>
+          <a href="amenities.html" class="nav__link" data-i18n="nav.amenities">Tiện nghi</a>
+          <a href="gallery.html" class="nav__link" data-i18n="nav.gallery">Thư viện ảnh</a>
+          <a href="location.html" class="nav__link" data-i18n="nav.location">Vị trí</a>
+          <a href="contact.html" class="nav__link" data-i18n="nav.contact">Liên hệ</a>
+          <a href="#booking" class="btn btn--primary btn--sm nav__cta" data-i18n="nav.book">Đặt phòng</a>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button class="lang-switch__btn is-active" data-lang="vi" type="button">VI</button>
+            <button class="lang-switch__btn" data-lang="en" type="button">EN</button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="booking">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__copy reveal">
+          <span class="eyebrow" data-i18n="hero.eyebrow">Chào mừng đến Quận Gò Vấp</span>
+          <h1 data-i18n="hero.title">Khách sạn bình dân, sạch sẽ và thân thiện ở Gò Vấp</h1>
+          <p class="hero__lead" data-i18n="hero.lead">Phòng nghỉ thoải mái với mức giá phải chăng ngay tại Quận Gò Vấp, chỉ vài phút từ Sân bay Tân Sơn Nhất. Đón tiếp nồng hậu cho cả khách Việt và khách nước ngoài.</p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <a href="rooms.html" class="btn btn--primary" data-i18n="btn.exploreRooms">Khám phá các phòng</a>
+            <a href="location.html" class="btn btn--outline" style="color:#fff; border-color:rgba(255,255,255,0.6);" data-i18n="btn.findUs">Tìm chúng tôi</a>
+          </div>
+          <div class="hero__meta">
+            <div class="hero__meta-item"><span class="label" data-i18n="hero.metaAirport">Sân bay</span><span class="value" data-i18n="hero.metaAirportV">15 phút lái xe</span></div>
+            <div class="hero__meta-item"><span class="label" data-i18n="hero.metaDesk">Lễ tân</span><span class="value" data-i18n="hero.metaDeskV">Phục vụ 24/7</span></div>
+            <div class="hero__meta-item"><span class="label" data-i18n="hero.metaWifi">Wi-Fi</span><span class="value" data-i18n="hero.metaWifiV">Miễn phí</span></div>
+          </div>
+        </div>
+
+        <!-- Booking widget -->
+        <div class="booking-card reveal">
+          <h3 data-i18n="book.title">Đặt phòng</h3>
+          <p class="booking-card__sub" data-i18n="book.sub">Giá tốt nhất khi đặt trực tiếp.</p>
+          <form data-booking-form novalidate>
+            <div class="booking-grid">
+              <div class="field">
+                <label for="ci" data-i18n="book.checkin">Nhận phòng</label>
+                <input type="date" id="ci" name="checkin">
+                <span class="field__error"></span>
+              </div>
+              <div class="field">
+                <label for="co" data-i18n="book.checkout">Trả phòng</label>
+                <input type="date" id="co" name="checkout">
+                <span class="field__error"></span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="rt" data-i18n="book.roomtype">Loại phòng</label>
+              <select id="rt" name="roomtype">
+                <option value="any" data-i18n="book.anyRoom">Bất kỳ phòng nào</option>
+                <option value="standard" data-i18n="room.std">Phòng Đôi Tiêu Chuẩn</option>
+                <option value="superior" data-i18n="room.sup">Phòng Đôi Superior</option>
+                <option value="deluxe" data-i18n="room.dlx">Phòng Deluxe</option>
+                <option value="family" data-i18n="room.fam">Phòng Gia Đình</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="gs" data-i18n="book.guests">Số khách</label>
+              <select id="gs" name="guests">
+                <option value="1" data-i18n="book.g1">1 khách</option>
+                <option value="2" data-i18n="book.g2">2 khách</option>
+                <option value="3" data-i18n="book.g3">3 khách</option>
+                <option value="4" data-i18n="book.g4">4 khách</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block" data-i18n="btn.checkAvail">Kiểm tra phòng trống</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WELCOME -->
+  <section class="section">
+    <div class="container">
+      <div class="welcome__grid">
+        <div class="welcome__copy reveal">
+          <span class="eyebrow" data-i18n="welcome.eyebrow">Về chúng tôi</span>
+          <h2 data-i18n="welcome.title">Một nơi nghỉ chân giản dị và đáng tin cậy</h2>
+          <p data-i18n="welcome.p1">Khách sạn Đại Nghĩa là khách sạn bình dân, tập trung vào những điều quan trọng nhất: phòng sạch sẽ, giường êm, máy lạnh mát, nước nóng ổn định và Wi-Fi nhanh — tất cả với mức giá phải chăng.</p>
+          <p data-i18n="welcome.p2">Phần lớn khách của chúng tôi là người Việt, nhưng chúng tôi cũng thường xuyên đón khách nước ngoài. Lễ tân nói được tiếng Việt và tiếng Anh, luôn sẵn lòng giúp bạn gọi taxi, tìm quán ăn ngon hoặc chỉ đường.</p>
+          <a href="amenities.html" class="btn btn--ghost" data-i18n="btn.amenities">Khám phá tiện nghi</a>
+        </div>
+        <div class="welcome__image reveal">
+          <!-- PLACEHOLDER: replace with images/lobby.jpg -->
+          <div class="split__image" data-placeholder style="background:linear-gradient(135deg,#1f7ae0,#16a34a); display:grid; place-items:center; color:#fff; text-align:center; padding:20px;">
+            <span data-i18n="gal.placeholder">Ảnh sẽ được cập nhật</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="why.eyebrow">Vì sao chọn chúng tôi</span>
+        <h2 data-i18n="why.title">Những điều giản dị, làm thật tốt</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature reveal">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h3 data-i18n="why.loc">Vị trí thuận tiện</h3>
+          <p data-i18n="why.locP">Ngay tại Gò Vấp, gần chợ, công viên và sân bay.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 8h-4a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4H8"/><path d="M12 6v2M12 16v2"/></svg></div>
+          <h3 data-i18n="why.price">Giá minh bạch</h3>
+          <p data-i18n="why.priceP">Giá rõ ràng, không phí ẩn, đón tiếp như nhau dù bạn ở một đêm hay cả tháng.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3 data-i18n="why.service">Phục vụ 24/7</h3>
+          <p data-i18n="why.serviceP">Dù bạn đến lúc nửa đêm hay taxi đến trễ, luôn có người sẵn sàng giúp đỡ.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="0.5" fill="currentColor"/></svg></div>
+          <h3 data-i18n="why.wifi">Wi-Fi miễn phí</h3>
+          <p data-i18n="why.wifiP">Internet ổn định khắp khách sạn — đủ nhanh để gọi video và làm việc.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED ROOMS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="rooms.eyebrow">Phòng nghỉ</span>
+        <h2 data-i18n="rooms.title">Phòng cho mọi nhu cầu</h2>
+        <p data-i18n="rooms.lead">Bốn loại phòng, đều sạch sẽ và đầy đủ tiện nghi cơ bản.</p>
+      </div>
+      <div class="card-grid">
+        <article class="room-card reveal">
+          <div class="room-card__img" style="background:linear-gradient(135deg,#bcd9f5,#1f7ae0); display:grid; place-items:center;"><span style="color:#fff; font-size:0.85rem;" data-i18n="gal.placeholder">Ảnh sẽ được cập nhật</span><span class="room-card__badge" data-i18n="room.badgeValue">Giá tốt</span></div>
+          <div class="room-card__body">
+            <div class="room-card__title"><h3 data-i18n="room.std">Phòng Đôi Tiêu Chuẩn</h3><span class="room-card__price">350.000đ<small> <span data-i18n="room.perNight">/ đêm</span></small></span></div>
+            <p class="room-card__desc" data-i18n="room.stdDesc">Phòng gọn gàng, thoải mái cho khách đi một mình hoặc cặp đôi. Máy lạnh, Wi-Fi miễn phí, phòng tắm riêng.</p>
+            <div class="room-card__meta"><span data-i18n="room.sleeps2">2 khách</span></div>
+            <a href="rooms.html" class="btn btn--outline btn--sm" data-i18n="btn.bookRoom">Đặt phòng này</a>
+          </div>
+        </article>
+        <article class="room-card reveal">
+          <div class="room-card__img" style="background:linear-gradient(135deg,#bcf5d2,#16a34a); display:grid; place-items:center;"><span style="color:#fff; font-size:0.85rem;" data-i18n="gal.placeholder">Ảnh sẽ được cập nhật</span></div>
+          <div class="room-card__body">
+            <div class="room-card__title"><h3 data-i18n="room.sup">Phòng Đôi Superior</h3><span class="room-card__price">450.000đ<small> <span data-i18n="room.perNight">/ đêm</span></small></span></div>
+            <p class="room-card__desc" data-i18n="room.supDesc">Phòng rộng hơn với hai giường đơn — phù hợp cho bạn bè hoặc đồng nghiệp.</p>
+            <div class="room-card__meta"><span data-i18n="room.sleeps2">2 khách</span></div>
+            <a href="rooms.html" class="btn btn--outline btn--sm" data-i18n="btn.bookRoom">Đặt phòng này</a>
+          </div>
+        </article>
+        <article class="room-card reveal">
+          <div class="room-card__img" style="background:linear-gradient(135deg,#c7c4f5,#5b53d6); display:grid; place-items:center;"><span style="color:#fff; font-size:0.85rem;" data-i18n="gal.placeholder">Ảnh sẽ được cập nhật</span><span class="room-card__badge" data-i18n="room.badgePopular">Được chọn nhiều</span></div>
+          <div class="room-card__body">
+            <div class="room-card__title"><h3 data-i18n="room.dlx">Phòng Deluxe</h3><span class="room-card__price">550.000đ<small> <span data-i18n="room.perNight">/ đêm</span></small></span></div>
+            <p class="room-card__desc" data-i18n="room.dlxDesc">Rộng rãi hơn với giường lớn, bàn làm việc và tủ lạnh mini.</p>
+            <div class="room-card__meta"><span data-i18n="room.sleeps3">3 khách</span></div>
+            <a href="rooms.html" class="btn btn--outline btn--sm" data-i18n="btn.bookRoom">Đặt phòng này</a>
+          </div>
+        </article>
+        <article class="room-card reveal">
+          <div class="room-card__img" style="background:linear-gradient(135deg,#f5d9bc,#e0851f); display:grid; place-items:center;"><span style="color:#fff; font-size:0.85rem;" data-i18n="gal.placeholder">Ảnh sẽ được cập nhật</span><span class="room-card__badge" data-i18n="room.badgeFamily">Cho gia đình</span></div>
+          <div class="room-card__body">
+            <div class="room-card__title"><h3 data-i18n="room.fam">Phòng Gia Đình</h3><span class="room-card__price">700.000đ<small> <span data-i18n="room.perNight">/ đêm</span></small></span></div>
+            <p class="room-card__desc" data-i18n="room.famDesc">Phòng lớn cho tối đa bốn khách, có khu vực ngồi riêng — phù hợp cho gia đình.</p>
+            <div class="room-card__meta"><span data-i18n="room.sleeps4">4 khách</span></div>
+            <a href="rooms.html" class="btn btn--outline btn--sm" data-i18n="btn.bookRoom">Đặt phòng này</a>
+          </div>
+        </article>
+      </div>
+      <div class="text-center" style="margin-top:36px;">
+        <a href="rooms.html" class="btn btn--primary" data-i18n="btn.viewAll">Xem tất cả phòng</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="test.eyebrow">Cảm nhận của khách</span>
+        <h2 data-i18n="test.title">Khách của chúng tôi nói gì</h2>
+      </div>
+      <div class="testimonial-carousel reveal" data-testimonials>
+        <div class="testimonial is-active">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__quote" data-i18n="test.q1">“Phòng sạch sẽ, yên tĩnh và giá rất hợp lý...”</p>
+          <div class="testimonial__author" data-i18n="test.a1">Chị Hương</div>
+          <div class="testimonial__role" data-i18n="test.r1">Khách công tác</div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__quote" data-i18n="test.q2">“Stayed two weeks while working in Saigon...”</p>
+          <div class="testimonial__author" data-i18n="test.a2">David</div>
+          <div class="testimonial__role" data-i18n="test.r2">Khách nước ngoài</div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__quote" data-i18n="test.q3">“Gia đình tôi bốn người ở phòng gia đình rất thoải mái...”</p>
+          <div class="testimonial__author" data-i18n="test.a3">Anh Tuấn</div>
+          <div class="testimonial__role" data-i18n="test.r3">Gia đình bốn người</div>
+        </div>
+        <div class="testimonial-dots">
+          <button class="testimonial-dot is-active" aria-label="1"></button>
+          <button class="testimonial-dot" aria-label="2"></button>
+          <button class="testimonial-dot" aria-label="3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container reveal">
+      <h2 data-i18n="cta.title">Sẵn sàng đặt phòng?</h2>
+      <p data-i18n="cta.lead">Gọi cho lễ tân hoặc gửi yêu cầu đặt phòng — chúng tôi phản hồi nhanh.</p>
+      <a href="contact.html" class="btn btn--primary" data-i18n="cta.btn">Liên hệ ngay</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-name">Khách sạn Đại Nghĩa</div>
+          <p data-i18n="foot.about">Khách sạn bình dân tại Quận Gò Vấp, Thành phố Hồ Chí Minh. Sạch sẽ, thân thiện, giá hợp lý.</p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.links">Liên kết</h4>
+          <ul class="footer__links">
+            <li><a href="rooms.html" data-i18n="nav.rooms">Phòng</a></li>
+            <li><a href="amenities.html" data-i18n="nav.amenities">Tiện nghi</a></li>
+            <li><a href="gallery.html" data-i18n="nav.gallery">Thư viện ảnh</a></li>
+            <li><a href="location.html" data-i18n="nav.location">Vị trí</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="foot.contact">Liên hệ</h4>
+          <p data-i18n="foot.addr">Đường Lê Lợi, Quận Gò Vấp, TP. Hồ Chí Minh</p>
+          <p>[PLACEHOLDER: +84 xxx xxx xxx]<br>[PLACEHOLDER: email@dainghiahotel.com]</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © <span data-year>2026</span> Khách sạn Đại Nghĩa. <span data-i18n="foot.rights">Bảo lưu mọi quyền.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOOKING MODAL -->
+  <div class="modal" id="booking-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__dialog">
+      <button class="modal__close" data-modal-close aria-label="Close"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      <div class="modal__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+      <h3 id="modal-title" data-i18n="modal.title">Đã nhận yêu cầu đặt phòng</h3>
+      <p data-i18n="modal.body">Cảm ơn bạn! Chúng tôi sẽ liên hệ trong vòng 2 giờ để xác nhận.</p>
+      <div class="modal__summary">
+        <div class="modal__row"><span class="label" data-i18n="modal.room">Phòng</span><span class="value" data-field="modal-room"></span></div>
+        <div class="modal__row"><span class="label" data-i18n="modal.checkin">Nhận phòng</span><span class="value" data-field="modal-checkin"></span></div>
+        <div class="modal__row"><span class="label" data-i18n="modal.checkout">Trả phòng</span><span class="value" data-field="modal-checkout"></span></div>
+        <div class="modal__row"><span class="label" data-i18n="modal.guests">Số khách</span><span class="value" data-field="modal-guests"></span></div>
+      </div>
+      <button class="btn btn--primary btn--block" data-modal-ack data-i18n="btn.ack">Đã rõ, cảm ơn</button>
+    </div>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>

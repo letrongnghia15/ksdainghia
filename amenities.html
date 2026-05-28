@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiện nghi — Khách sạn Đại Nghĩa</title>
+  <meta name="description" content="Wi-Fi miễn phí, lễ tân 24 giờ, máy lạnh, dọn phòng hàng ngày và nhiều tiện nghi khác.">
+  <meta name="theme-color" content="#1f7ae0">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231f7ae0'/%3E%3Ctext x='50' y='70' font-family='Segoe UI,sans-serif' font-size='58' font-weight='700' fill='white' text-anchor='middle'%3E%C4%90%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-title-key="meta.title.amen">
+  <!-- NAV -->
+  <header class="nav" role="banner">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__brand">
+          <span class="nav__brand-name">Khách sạn Đại Nghĩa</span>
+          <span class="nav__brand-tag" data-i18n="brand.tag">Gò Vấp · Sài Gòn</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav__menu" aria-label="Main">
+          <a href="index.html" class="nav__link" data-i18n="nav.home">Trang chủ</a>
+          <a href="rooms.html" class="nav__link" data-i18n="nav.rooms">Phòng</a>
+          <a href="amenities.html" class="nav__link is-active" data-i18n="nav.amenities">Tiện nghi</a>
+          <a href="gallery.html" class="nav__link" data-i18n="nav.gallery">Thư viện ảnh</a>
+          <a href="location.html" class="nav__link" data-i18n="nav.location">Vị trí</a>
+          <a href="contact.html" class="nav__link" data-i18n="nav.contact">Liên hệ</a>
+          <a href="index.html#booking" class="btn btn--primary btn--sm nav__cta" data-i18n="nav.book">Đặt phòng</a>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button class="lang-switch__btn is-active" data-lang="vi" type="button">VI</button>
+            <button class="lang-switch__btn" data-lang="en" type="button">EN</button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow" data-i18n="amen.eyebrow">Tiện nghi & dịch vụ</span>
+      <h1 data-i18n="amen.title">Mọi thứ bạn cần cho một kỳ nghỉ dễ chịu</h1>
+      <p data-i18n="amen.lead">Chúng tôi tập trung vào những điều cơ bản được làm tốt, cùng vài dịch vụ thêm khi bạn cần.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="amen.includedTitle">Tiện nghi tiêu chuẩn</span>
+        <h2 data-i18n="amen.includedLead">Có sẵn cho mọi phòng, không phụ phí.</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="0.5" fill="currentColor"/></svg></div><h3 data-i18n="amen.wifi">Wi-Fi miễn phí</h3><p data-i18n="amen.wifiP">Internet ổn định khắp các tầng.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><h3 data-i18n="amen.desk">Lễ tân 24 giờ</h3><p data-i18n="amen.deskP">Luôn có người trực, sẵn sàng hỗ trợ.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/><path d="M6 6l12 12M18 6L6 18"/></svg></div><h3 data-i18n="amen.ac">Máy lạnh</h3><p data-i18n="amen.acP">Mỗi phòng đều có máy lạnh, điều khiển theo ý bạn.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l6-6"/><path d="M14 4l6 6-4 6-8-8z"/></svg></div><h3 data-i18n="amen.clean">Dọn phòng hàng ngày</h3><p data-i18n="amen.cleanP">Phòng được dọn và thay khăn mỗi ngày.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg></div><h3 data-i18n="amen.laundry">Giặt ủi</h3><p data-i18n="amen.laundryP">Dịch vụ giặt ủi giá hợp lý, trả trong ngày.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="14" rx="2"/><path d="M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3"/></svg></div><h3 data-i18n="amen.luggage">Giữ hành lý</h3><p data-i18n="amen.luggageP">Gửi hành lý miễn phí trước hoặc sau khi nhận phòng.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M5 17v-5l2-5h10l2 5v5"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg></div><h3 data-i18n="amen.parking">Bãi đậu xe</h3><p data-i18n="amen.parkingP">Chỗ để xe máy và ô tô an toàn, miễn phí cho khách.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div><h3 data-i18n="amen.breakfast">Bữa sáng</h3><p data-i18n="amen.breakfastP">Bữa sáng đơn giản có sẵn mỗi buổi sáng theo yêu cầu.</p></div>
+        <div class="feature reveal"><div class="feature__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3 data-i18n="amen.english">Nhân viên nói tiếng Anh</h3><p data-i18n="amen.englishP">Lễ tân nói được tiếng Việt và tiếng Anh.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="amen.servTitle">Dịch vụ theo yêu cầu</span>
+        <h2 data-i18n="amen.servLead">Báo trước cho lễ tân và chúng tôi sẽ sắp xếp.</h2>
+      </div>
+      <div class="services-list reveal">
+        <div class="service-item"><h4 data-i18n="amen.airport">Đưa đón sân bay</h4><p data-i18n="amen.airportP">Đón và trả tại Sân bay Tân Sơn Nhất với giá cố định.</p></div>
+        <div class="service-item"><h4 data-i18n="amen.tour">Tour & vé tham quan</h4><p data-i18n="amen.tourP">Đặt tour trong ngày và tư vấn điểm tham quan.</p></div>
+        <div class="service-item"><h4 data-i18n="amen.moto">Thuê xe máy</h4><p data-i18n="amen.motoP">Thuê xe máy theo ngày qua đối tác địa phương.</p></div>
+        <div class="service-item"><h4 data-i18n="amen.sim">Thẻ SIM</h4><p data-i18n="amen.simP">Thẻ SIM du lịch, lắp sẵn khi bạn đến.</p></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-name">Khách sạn Đại Nghĩa</div>
+          <p data-i18n="foot.about">Khách sạn bình dân tại Quận Gò Vấp, Thành phố Hồ Chí Minh. Sạch sẽ, thân thiện, giá hợp lý.</p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.links">Liên kết</h4>
+          <ul class="footer__links">
+            <li><a href="rooms.html" data-i18n="nav.rooms">Phòng</a></li>
+            <li><a href="amenities.html" data-i18n="nav.amenities">Tiện nghi</a></li>
+            <li><a href="gallery.html" data-i18n="nav.gallery">Thư viện ảnh</a></li>
+            <li><a href="location.html" data-i18n="nav.location">Vị trí</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="foot.contact">Liên hệ</h4>
+          <p data-i18n="foot.addr">Đường Lê Lợi, Quận Gò Vấp, TP. Hồ Chí Minh</p>
+          <p>[PLACEHOLDER: +84 xxx xxx xxx]<br>[PLACEHOLDER: email@dainghiahotel.com]</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © <span data-year>2026</span> Khách sạn Đại Nghĩa. <span data-i18n="foot.rights">Bảo lưu mọi quyền.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/booking.js"></script>
+
+</body>
+</html>
