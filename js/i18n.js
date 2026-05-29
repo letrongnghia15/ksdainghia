@@ -69,7 +69,7 @@
     // ---- Welcome / about ----
     'welcome.eyebrow': { vi: 'Về chúng tôi', en: 'About Us' },
     'welcome.title':   { vi: 'Một nơi nghỉ chân giản dị và đáng tin cậy', en: 'A simple, dependable place to stay' },
-    'welcome.p1':      { vi: 'Khách sạn Lê Lợi là khách sạn bình dân, tập trung vào những điều quan trọng nhất: phòng sạch sẽ, giường êm, máy lạnh mát, nước nóng ổn định và Wi-Fi nhanh — tất cả với mức giá phải chăng.',
+    'welcome.p1':      { vi: 'Le Loi Hotel là khách sạn bình dân, tập trung vào những điều quan trọng nhất: phòng sạch sẽ, giường êm, máy lạnh mát, nước nóng ổn định và Wi-Fi nhanh — tất cả với mức giá phải chăng.',
                          en: 'Le Loi Hotel is a budget hotel focused on what matters most: clean rooms, comfortable beds, cool air conditioning, reliable hot water, and fast Wi-Fi — all at an affordable price.' },
     'welcome.p2':      { vi: 'Phần lớn khách của chúng tôi là người Việt, nhưng chúng tôi cũng thường xuyên đón khách nước ngoài. Lễ tân nói được tiếng Việt và tiếng Anh, luôn sẵn lòng giúp bạn gọi taxi, tìm quán ăn ngon hoặc chỉ đường.',
                          en: 'Most of our guests are Vietnamese, but we welcome foreign visitors often too. Our front desk speaks both Vietnamese and English, and is always glad to help you find a taxi, a good meal, or your way around.' },
@@ -299,12 +299,12 @@
     'val.message':     { vi: 'Vui lòng nhập tin nhắn ít nhất 10 ký tự.', en: 'Please enter a message of at least 10 characters.' },
 
     // page titles + meta
-    'meta.title.home': { vi: 'Khách sạn Lê Lợi — Khách sạn bình dân tại Gò Vấp, TP.HCM', en: 'Le Loi Hotel — Budget hotel in Go Vap, HCMC' },
-    'meta.title.rooms':{ vi: 'Phòng & giá — Khách sạn Lê Lợi', en: 'Rooms & Rates — Le Loi Hotel' },
-    'meta.title.amen': { vi: 'Tiện nghi — Khách sạn Lê Lợi', en: 'Amenities — Le Loi Hotel' },
-    'meta.title.gal':  { vi: 'Thư viện ảnh — Khách sạn Lê Lợi', en: 'Gallery — Le Loi Hotel' },
-    'meta.title.loc':  { vi: 'Vị trí — Khách sạn Lê Lợi', en: 'Location — Le Loi Hotel' },
-    'meta.title.con':  { vi: 'Liên hệ — Khách sạn Lê Lợi', en: 'Contact — Le Loi Hotel' }
+    'meta.title.home': { vi: 'Le Loi Hotel — Khách sạn bình dân tại Gò Vấp, TP.HCM', en: 'Le Loi Hotel — Budget hotel in Go Vap, HCMC' },
+    'meta.title.rooms':{ vi: 'Phòng & giá — Le Loi Hotel', en: 'Rooms & Rates — Le Loi Hotel' },
+    'meta.title.amen': { vi: 'Tiện nghi — Le Loi Hotel', en: 'Amenities — Le Loi Hotel' },
+    'meta.title.gal':  { vi: 'Thư viện ảnh — Le Loi Hotel', en: 'Gallery — Le Loi Hotel' },
+    'meta.title.loc':  { vi: 'Vị trí — Le Loi Hotel', en: 'Location — Le Loi Hotel' },
+    'meta.title.con':  { vi: 'Liên hệ — Le Loi Hotel', en: 'Contact — Le Loi Hotel' }
   };
 
   var STORAGE_KEY = 'dnh-lang';
