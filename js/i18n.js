@@ -144,7 +144,7 @@
     'foot.about':      { vi: 'Khách sạn bình dân tại Quận Gò Vấp, Thành phố Hồ Chí Minh. Sạch sẽ, thân thiện, giá hợp lý.', en: 'A budget hotel in Go Vap District, Ho Chi Minh City. Clean, friendly, affordable.' },
     'foot.links':      { vi: 'Liên kết', en: 'Quick Links' },
     'foot.contact':    { vi: 'Liên hệ', en: 'Contact' },
-    'foot.addr':       { vi: '25 Đường Lê Lợi, Phường 3, Phường Hạnh Thông, Gò Vấp, TP. Hồ Chí Minh', en: '25 Le Loi Street, Ward 3, Hanh Thong, Go Vap, Ho Chi Minh City, Vietnam' },
+    'foot.addr':       { vi: '25 Đường Lê Lợi, Phường Hạnh Thông (Phường 4 cũ), Gò Vấp, TP. Hồ Chí Minh', en: '25 Le Loi Street, Hanh Thong Ward (former Ward 4), Go Vap, Ho Chi Minh City, Vietnam' },
     'foot.rights':     { vi: 'Bảo lưu mọi quyền.', en: 'All rights reserved.' },
 
     // ---- Rooms page ----
