@@ -565,6 +565,20 @@ ul { margin: 0; padding: 0; list-style: none; }
 .footer__brand-name { font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem; color: #fff; margin-bottom: 8px; }
 .footer a { color: rgba(255,255,255,0.78); }
 .footer a:hover { color: #fff; }
+.zalo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #0068ff;
+  color: #fff !important;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-top: 6px;
+  text-decoration: none;
+}
+.zalo-link:hover { background: #0057d9; color: #fff !important; }
 .footer__links li { margin-bottom: 8px; }
 .footer__bottom { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 22px; font-size: 0.85rem; color: rgba(255,255,255,0.55); text-align: center; }
 @media (max-width: 768px) {
