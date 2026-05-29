@@ -186,13 +186,19 @@ ul { margin: 0; padding: 0; list-style: none; }
 .nav__cta { margin-left: 6px; color: #fff; }
 .nav__cta:hover { color: #fff; }
 
+/* Nav right group (lang switch + hamburger + menu) */
+.nav__right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* Language toggle */
 .lang-switch {
   display: inline-flex;
   border: 1.5px solid var(--color-border);
   border-radius: var(--radius-sm);
   overflow: hidden;
-  margin-left: 10px;
 }
 .lang-switch__btn {
   border: none;
@@ -243,7 +249,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   .nav__menu.is-open { transform: translateY(0); }
   .nav__link { padding: 12px 14px; font-size: 1.02rem; }
   .nav__cta { margin: 8px 0 0; }
-  .lang-switch { margin: 12px 0 0; align-self: flex-start; }
 }
 
 /* --------------------------------------------------------------------------

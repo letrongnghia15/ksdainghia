@@ -69,8 +69,8 @@
     // ---- Welcome / about ----
     'welcome.eyebrow': { vi: 'Về chúng tôi', en: 'About Us' },
     'welcome.title':   { vi: 'Một nơi nghỉ chân giản dị và đáng tin cậy', en: 'A simple, dependable place to stay' },
-    'welcome.p1':      { vi: 'Khách sạn Đại Nghĩa là khách sạn bình dân, tập trung vào những điều quan trọng nhất: phòng sạch sẽ, giường êm, máy lạnh mát, nước nóng ổn định và Wi-Fi nhanh — tất cả với mức giá phải chăng.',
-                         en: 'Dai Nghia is a budget hotel focused on what matters most: clean rooms, comfortable beds, cool air conditioning, reliable hot water, and fast Wi-Fi — all at an affordable price.' },
+    'welcome.p1':      { vi: 'Khách sạn Lê Lợi là khách sạn bình dân, tập trung vào những điều quan trọng nhất: phòng sạch sẽ, giường êm, máy lạnh mát, nước nóng ổn định và Wi-Fi nhanh — tất cả với mức giá phải chăng.',
+                         en: 'Le Loi Hotel is a budget hotel focused on what matters most: clean rooms, comfortable beds, cool air conditioning, reliable hot water, and fast Wi-Fi — all at an affordable price.' },
     'welcome.p2':      { vi: 'Phần lớn khách của chúng tôi là người Việt, nhưng chúng tôi cũng thường xuyên đón khách nước ngoài. Lễ tân nói được tiếng Việt và tiếng Anh, luôn sẵn lòng giúp bạn gọi taxi, tìm quán ăn ngon hoặc chỉ đường.',
                          en: 'Most of our guests are Vietnamese, but we welcome foreign visitors often too. Our front desk speaks both Vietnamese and English, and is always glad to help you find a taxi, a good meal, or your way around.' },
 
@@ -143,7 +143,7 @@
     'foot.about':      { vi: 'Khách sạn bình dân tại Quận Gò Vấp, Thành phố Hồ Chí Minh. Sạch sẽ, thân thiện, giá hợp lý.', en: 'A budget hotel in Go Vap District, Ho Chi Minh City. Clean, friendly, affordable.' },
     'foot.links':      { vi: 'Liên kết', en: 'Quick Links' },
     'foot.contact':    { vi: 'Liên hệ', en: 'Contact' },
-    'foot.addr':       { vi: 'Đường Lê Lợi, Quận Gò Vấp, TP. Hồ Chí Minh', en: 'Le Loi Street, Go Vap District, Ho Chi Minh City' },
+    'foot.addr':       { vi: '25 Đường Lê Lợi, Phường 3, Phường Hạnh Thông, Gò Vấp, TP. Hồ Chí Minh', en: '25 Le Loi Street, Ward 3, Hanh Thong, Go Vap, Ho Chi Minh City, Vietnam' },
     'foot.rights':     { vi: 'Bảo lưu mọi quyền.', en: 'All rights reserved.' },
 
     // ---- Rooms page ----
@@ -299,12 +299,12 @@
     'val.message':     { vi: 'Vui lòng nhập tin nhắn ít nhất 10 ký tự.', en: 'Please enter a message of at least 10 characters.' },
 
     // page titles + meta
-    'meta.title.home': { vi: 'Khách sạn Đại Nghĩa — Khách sạn bình dân tại Gò Vấp, TP.HCM', en: 'Dai Nghia Hotel — Budget hotel in Go Vap, HCMC' },
-    'meta.title.rooms':{ vi: 'Phòng & giá — Khách sạn Đại Nghĩa', en: 'Rooms & Rates — Dai Nghia Hotel' },
-    'meta.title.amen': { vi: 'Tiện nghi — Khách sạn Đại Nghĩa', en: 'Amenities — Dai Nghia Hotel' },
-    'meta.title.gal':  { vi: 'Thư viện ảnh — Khách sạn Đại Nghĩa', en: 'Gallery — Dai Nghia Hotel' },
-    'meta.title.loc':  { vi: 'Vị trí — Khách sạn Đại Nghĩa', en: 'Location — Dai Nghia Hotel' },
-    'meta.title.con':  { vi: 'Liên hệ — Khách sạn Đại Nghĩa', en: 'Contact — Dai Nghia Hotel' }
+    'meta.title.home': { vi: 'Khách sạn Lê Lợi — Khách sạn bình dân tại Gò Vấp, TP.HCM', en: 'Le Loi Hotel — Budget hotel in Go Vap, HCMC' },
+    'meta.title.rooms':{ vi: 'Phòng & giá — Khách sạn Lê Lợi', en: 'Rooms & Rates — Le Loi Hotel' },
+    'meta.title.amen': { vi: 'Tiện nghi — Khách sạn Lê Lợi', en: 'Amenities — Le Loi Hotel' },
+    'meta.title.gal':  { vi: 'Thư viện ảnh — Khách sạn Lê Lợi', en: 'Gallery — Le Loi Hotel' },
+    'meta.title.loc':  { vi: 'Vị trí — Khách sạn Lê Lợi', en: 'Location — Le Loi Hotel' },
+    'meta.title.con':  { vi: 'Liên hệ — Khách sạn Lê Lợi', en: 'Contact — Le Loi Hotel' }
   };
 
   var STORAGE_KEY = 'dnh-lang';
