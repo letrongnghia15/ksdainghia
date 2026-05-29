@@ -53,49 +53,7 @@
 
   <section class="section">
     <div class="container">
-      <div class="contact-grid">
-        <!-- Form -->
-        <div class="reveal">
-          <h2 data-i18n="con.formTitle">Gửi tin nhắn</h2>
-          <div class="form-status form-status--success" data-form-status role="status"></div>
-          <form data-contact-form novalidate>
-            <div class="field">
-              <label for="cn" data-i18n="con.name">Họ và tên</label>
-              <input type="text" id="cn" name="name">
-              <span class="field__error"></span>
-            </div>
-            <div class="field">
-              <label for="ce" data-i18n="con.email">Email</label>
-              <input type="email" id="ce" name="email">
-              <span class="field__error"></span>
-            </div>
-            <div class="field">
-              <label for="cp" data-i18n="con.phone">Số điện thoại (không bắt buộc)</label>
-              <input type="tel" id="cp" name="phone">
-              <span class="field__error"></span>
-            </div>
-            <div class="field">
-              <label for="cs" data-i18n="con.subject">Chủ đề</label>
-              <select id="cs" name="subject">
-                <option value="" data-i18n="con.subjChoose">Vui lòng chọn…</option>
-                <option value="booking" data-i18n="con.subjBooking">Đặt phòng</option>
-                <option value="group" data-i18n="con.subjGroup">Đặt nhóm / dài ngày</option>
-                <option value="amenities" data-i18n="con.subjAmen">Tiện nghi & dịch vụ</option>
-                <option value="other" data-i18n="con.subjOther">Khác</option>
-              </select>
-              <span class="field__error"></span>
-            </div>
-            <div class="field">
-              <label for="cm" data-i18n="con.message">Tin nhắn</label>
-              <textarea id="cm" name="message" rows="5" data-i18n-attr="placeholder:con.msgPlaceholder"></textarea>
-              <span class="field__error"></span>
-            </div>
-            <button type="submit" class="btn btn--primary" data-i18n="btn.sendMsg">Gửi tin nhắn</button>
-            <p class="form-note" data-i18n="con.formNote">Gửi tin nhắn đồng nghĩa bạn đồng ý được liên hệ lại. Chúng tôi không chia sẻ thông tin của bạn.</p>
-          </form>
-        </div>
-
-        <!-- Aside -->
+      <div class="contact-grid contact-grid--single">
         <aside class="contact-aside reveal">
           <h3 data-i18n="con.deskTitle">Lễ tân</h3>
           <div class="contact-detail">
