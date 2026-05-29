@@ -89,7 +89,7 @@
     // ---- Featured rooms (home) ----
     'rooms.eyebrow':   { vi: 'Phòng nghỉ', en: 'Our Rooms' },
     'rooms.title':     { vi: 'Phòng cho mọi nhu cầu', en: 'A room for every need' },
-    'rooms.lead':      { vi: 'Bốn loại phòng, đều sạch sẽ và đầy đủ tiện nghi cơ bản.', en: 'Four room types, all clean and fully equipped with the essentials.' },
+    'rooms.lead':      { vi: 'Ba loại phòng, đều sạch sẽ và đầy đủ tiện nghi cơ bản.', en: 'Three room types, all clean and fully equipped with the essentials.' },
 
     // Room names + descriptions (shared on home + rooms page)
     'room.std':        { vi: 'Phòng Đôi Tiêu Chuẩn', en: 'Standard Double' },
@@ -150,7 +150,7 @@
     // ---- Rooms page ----
     'roomsPage.eyebrow':{ vi: 'Phòng nghỉ', en: 'Accommodation' },
     'roomsPage.title': { vi: 'Phòng & giá', en: 'Rooms & Rates' },
-    'roomsPage.lead':  { vi: 'Bốn loại phòng, đều sạch sẽ và đầy đủ tiện nghi cơ bản. Lọc để tìm phòng phù hợp.', en: 'Four room types, all clean and well-equipped with the basics. Filter to find your fit.' },
+    'roomsPage.lead':  { vi: 'Ba loại phòng, đều sạch sẽ và đầy đủ tiện nghi cơ bản. Lọc để tìm phòng phù hợp.', en: 'Three room types, all clean and well-equipped with the basics. Filter to find your fit.' },
     'roomsPage.filterType': { vi: 'Loại phòng', en: 'Room type' },
     'roomsPage.filterGuests': { vi: 'Số khách', en: 'Guests' },
     'roomsPage.filterPrice': { vi: 'Mức giá', en: 'Price' },
