@@ -85,6 +85,8 @@
     'why.serviceP':    { vi: 'Dù bạn đến lúc nửa đêm hay taxi đến trễ, luôn có người sẵn sàng giúp đỡ.', en: 'Whether you arrive at midnight or your taxi runs late, someone is always there to help.' },
     'why.wifi':        { vi: 'Wi-Fi miễn phí', en: 'Free Wi-Fi' },
     'why.wifiP':       { vi: 'Internet ổn định khắp khách sạn — đủ nhanh để gọi video và làm việc.', en: 'Reliable internet throughout — fast enough for video calls and work.' },
+    'why.elevator':    { vi: 'Có thang máy', en: 'Elevator' },
+    'why.elevatorP':   { vi: 'Thang máy tiện lợi cho tất cả các tầng, phù hợp cho khách mang hành lý nặng.', en: 'Convenient elevator to all floors — great if you are travelling with heavy luggage.' },
 
     // ---- Featured rooms (home) ----
     'rooms.eyebrow':   { vi: 'Phòng nghỉ', en: 'Our Rooms' },
