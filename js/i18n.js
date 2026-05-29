@@ -109,6 +109,7 @@
     'room.sleeps2':    { vi: '2 khách', en: 'Sleeps 2' },
     'room.sleeps3':    { vi: '3 khách', en: 'Sleeps 3' },
     'room.sleeps4':    { vi: '4 khách', en: 'Sleeps 4' },
+    'room.sleeps5':    { vi: '5 khách', en: 'Sleeps 5' },
     'room.badgePopular':{ vi: 'Được chọn nhiều', en: 'Most popular' },
     'room.badgeValue': { vi: 'Giá tốt', en: 'Best value' },
     'room.badgeFamily':{ vi: 'Cho gia đình', en: 'For families' },
