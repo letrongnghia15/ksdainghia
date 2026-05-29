@@ -69,8 +69,8 @@
     // ---- Welcome / about ----
     'welcome.eyebrow': { vi: 'Về chúng tôi', en: 'About Us' },
     'welcome.title':   { vi: 'Một nơi nghỉ chân giản dị và đáng tin cậy', en: 'A simple, dependable place to stay' },
-    'welcome.p1':      { vi: 'Le Loi Hotel là khách sạn bình dân, tập trung vào những điều quan trọng nhất: phòng sạch sẽ, giường êm, máy lạnh mát, nước nóng ổn định và Wi-Fi nhanh — tất cả với mức giá phải chăng.',
-                         en: 'Le Loi Hotel is a budget hotel focused on what matters most: clean rooms, comfortable beds, cool air conditioning, reliable hot water, and fast Wi-Fi — all at an affordable price.' },
+    'welcome.p1':      { vi: 'Le Loi Hotel là khách sạn bình dân, tập trung vào những điều quan trọng nhất: phòng sạch sẽ, giường êm, máy lạnh mát, nước nóng ổn định, Wi-Fi nhanh và thang máy tiện lợi — tất cả với mức giá phải chăng.',
+                         en: 'Le Loi Hotel is a budget hotel focused on what matters most: clean rooms, comfortable beds, cool air conditioning, reliable hot water, fast Wi-Fi, and a convenient elevator — all at an affordable price.' },
     'welcome.p2':      { vi: 'Phần lớn khách của chúng tôi là người Việt, nhưng chúng tôi cũng thường xuyên đón khách nước ngoài. Lễ tân nói được tiếng Việt và tiếng Anh, luôn sẵn lòng giúp bạn gọi taxi, tìm quán ăn ngon hoặc chỉ đường.',
                          en: 'Most of our guests are Vietnamese, but we welcome foreign visitors often too. Our front desk speaks both Vietnamese and English, and is always glad to help you find a taxi, a good meal, or your way around.' },
 
