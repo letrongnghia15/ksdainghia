@@ -107,17 +107,7 @@
         }
         if (!valid) return;
 
-        var roomLabel = (room && room.value !== 'any') ? t(ROOM_KEYS[room.value] || 'book.anyRoom') : t('book.anyRoom');
-        var g = guests ? guests.value : '1';
-        var lang = I18N ? I18N.get() : 'vi';
-        var guestStr = lang === 'vi' ? (g + ' khách') : (g + ' guest' + (g === '1' ? '' : 's'));
-
-        openModal({
-          room: roomLabel,
-          checkin: formatDate(checkin.value),
-          checkout: formatDate(checkout.value),
-          guests: guestStr
-        });
+        window.open('https://zalo.me/0706563489', '_blank');
       });
     });
   });
