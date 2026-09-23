@@ -11,6 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .gallery-item { aspect-ratio: 4 / 3; }
+    @media (max-width: 700px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 420px) { .gallery-grid { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body data-title-key="meta.title.gal">
   <!-- NAV -->
